@@ -1,1 +1,17 @@
 
+body{
+    background-color:aqua ;
+    color:black
+}
+header{
+    background-color: aquamarine;
+    color:bisque;
+}
+section{
+    background-color: blue;
+    color: burlywood;
+}
+footer{
+    background-color: blanchedalmond;
+    color: aliceblue;
+}
