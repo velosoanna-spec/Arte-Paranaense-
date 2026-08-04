@@ -1,17 +1,26 @@
 
 body{
-    background-color:aqua ;
+    background-color:rgb(160, 241, 210) ;
     color:black
+    font-family: Aril, sans-serif;
 }
+
 header{
     background-color: aquamarine;
-    color:bisque;
+    color:azure
+    text-align:center;
+    padding: 30px;
 }
-section{
-    background-color: blue;
-    color: burlywood;
+
+h1{
+    font-size: 36px; 
 }
-footer{
-    background-color: blanchedalmond;
-    color: aliceblue;
+
+h2{
+    color: beige;
+}
+
+p{
+font-size: 18px;
+line-height: 1.6;
 }
