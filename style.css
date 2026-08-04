@@ -1,13 +1,13 @@
 
 body{
-    background-color:rgb(160, 241, 210) ;
+    background-color:rgb(236, 243, 240) ;
     color:black
     font-family: Aril, sans-serif;
 }
 
 header{
-    background-color: aquamarine;
-    color:azure
+    background-color: rgb(240, 234, 155);
+    color:black
     text-align:center;
     padding: 30px;
 }
@@ -17,7 +17,7 @@ h1{
 }
 
 h2{
-    color: beige;
+    color: rgb(240, 240, 154);
 }
 
 p{
