@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 243, 240);
+    background-color:bisque
     color: black;
     font-family: Arial, sans-serif;
  margin: 0;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(240, 240, 154);
+    color: black;
 }
 
 p {
