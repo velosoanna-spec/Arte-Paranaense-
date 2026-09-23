@@ -9,7 +9,7 @@ if (curtiu === false) {
     curtiu = true;
 } else{
     contador.textContent--;
-    curtir = false;
+    curtiu = false;
 
 }
     }
