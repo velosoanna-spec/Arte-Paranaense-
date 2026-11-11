@@ -21,15 +21,15 @@
 }
 
 body {
-    background-color: rgb(248, 248, 181)
-    color: black;
+    background-color: var(--cor-fundo);
+    color:var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color:antiquewhite;
-    color: black;
+    background-color:var(--cor-principal);
+    color:var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color:var(--cor-principal);
 }
 
 p {
@@ -52,9 +52,9 @@ nav {
 }
 
 nav a {
-    color:antiquewhite
+    color:var(--cor-clara);
     text-decoration: none;
-    background-color:antiquewhite;
+    background-color:var(--cor-secundaria);
     padding: 10px 15px;
     border-radius:8px;
     margin: 5px;
@@ -62,7 +62,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color:antiquewhite;
+    background-color:var(--cor-hover);
 }
 
 main {
@@ -71,7 +71,7 @@ margin: auto;
 }
 
 section {
-background-color:antiquewhite;
+background-color:var(--cor-superficie);
 margin: 20px 0;
 padding: 20px;
 border-radius: 12px;
@@ -88,40 +88,42 @@ border-radius: 12px;
 figcaption {
 text-align: center;
 font-size: 14px;
-color: black;
+color:var(--cor-legenda);
 margin-top: 8px;
 }
 
-card {
-background-color:antiquewhite;
+.card {
+background-color:var(--cor-card);
 padding: 15px;
 margin: 15px 0;
-border-left: 6px solid #abf3ab ;
+border-left: 6px solid var(--cor-principal);
 border-radius: 10px;
+flex:1 1 300px;
 }
 
-card h3{
+.card h3{
 margin-top: 0;
 }
+
 footer {
-background-color:antiquewhite;
-color: black
+background-color:var(--cor-rodape);
+color:var(--cor-clara);
 text-align: center;
 padding: 20px;
 margin-top: 30px;
 }
 
 button {
-background-color: #abf3ab;
-color: white;
+background-color:var(--cor-principal);
+color:var(--cor-clara);
 border: none;
 padding: 10px 15px;
 border-radius: 8px;
 cursor: pointer;
 }
 
-botton:hover {
-    background-color: antiquewhite;
+button:hover {
+    background-color:var(--cor-hover);
 }
 
 .curtir{
